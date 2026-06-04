@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Large or generated analysis outputs
+results/**
+!results/README.md
+data/**
+!data/README.md
+
+# Model checkpoints and binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.aux
+*.out
+*.toc

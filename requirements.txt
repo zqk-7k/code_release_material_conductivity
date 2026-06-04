@@ -1,0 +1,12 @@
+# Minimal dependencies for Windows core retraining and evaluation.
+# Install PyTorch separately first so Codex can select CPU or the correct CUDA build.
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+duckdb
+tqdm
+openpyxl
